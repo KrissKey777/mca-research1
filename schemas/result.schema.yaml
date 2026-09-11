@@ -1,0 +1,14 @@
+required:
+  - status
+  - evidence
+  - task_id
+  - changed_frontier
+  - artifacts
+  - next_single_gate
+status_values:
+  - PROPOSED
+  - COMPUTATIONAL
+  - RNR
+  - REPLAYED
+  - BANKED
+  - KILLED
