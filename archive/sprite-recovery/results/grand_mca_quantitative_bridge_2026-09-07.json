@@ -1,0 +1,24 @@
+{
+  "date":"2026-09-07",
+  "p":2130706433,
+  "p_plus_1":2130706434,
+  "B_star":274980728111395087,
+  "e":981104,
+  "a":1116048,
+  "k":1048576,
+  "t":67472,
+  "n_minus_2e":134944,
+  "projective_plane_points":4539909905758289923,
+  "globalization_X_max_under_deployed_dichotomy":129056129,
+  "direct_exception_budget_alternate":274980728110413981,
+  "L_max":{"1":524386048,"3":302754426,"6":214079707,"9":174795349},
+  "required_L_for_3_charts":302754427,
+  "conflict_energy_threshold_for_T_302754427":1374477817609565160379449199214079708,
+  "formulas":{
+    "X_max":"floor((B_star-(e+2)-(p+1))/(p+1))",
+    "heavy_pencil":"max E_lambda >= ceil(E_conf/(p^2+p+1))",
+    "energy_for_threshold_T":"E_conf >= (T-1)*(p^2+p+1)+1",
+    "L_max_M":"floor(sqrt(B_star/M))"
+  },
+  "semantic_warning":"m and s are not interchangeable; concentration must produce quotient-visible cardinality L after exact fibre losses"
+}
