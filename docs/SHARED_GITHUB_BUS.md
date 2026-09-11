@@ -3,7 +3,7 @@
 ```text
 repository: KrissKey777/mca-research1
 branch: main
-visibility: private
+visibility: public (temporary connector-access test)
 integrator: codex
 ```
 
