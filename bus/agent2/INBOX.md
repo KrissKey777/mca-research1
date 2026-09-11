@@ -9,6 +9,27 @@ state/ACTIVE_GATES.yaml
 state/DO_NOT_REOPEN.yaml
 ```
 
+## Current assigned task
+
+Task ID: `MCA-RESIDUAL-QUOTIENT-001`
+
+Using the current state and existing reported results, specify the weakest exact interface for
+
+```text
+deviation class Φ(γ) → residual quotient class [q]
+```
+
+Return only:
+
+- source type and target type;
+- required hypotheses;
+- support/interpolant/`¬LineCloseOn` preservation obligations;
+- whether the map is definitional, proved, reported-but-unreplayed, or missing;
+- the single first missing morphism/lemma;
+- one next gate.
+
+Do not claim `BANKED`, do not start broad theorem mining, and do not optimize deployed constants.
+
 Current communication mode:
 
 ```text

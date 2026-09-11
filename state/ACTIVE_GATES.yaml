@@ -1,2 +1,27 @@
 version: 1
-gates: []
+deployed:
+  safe_candidate: "e=978944"
+  unsafe_neighbor: "e=978945"
+  target_bound: "B*=274980728111395087"
+gates:
+  - id: MCA-SEMANTIC-SHORTENING-001
+    status: OPEN
+    claim: "Prove Q_S = Short(C^⊥, Sᶜ) under the concrete zero-extension convention."
+    evidence: RNR
+  - id: MCA-HIGHERDD-ADAPTER-001
+    status: OPEN
+    claim: "Connect official witness data to rank(Λ|Q_S)=1 and ℓ(S)=[-γ:1], preserving exact noncontainment."
+    evidence: RNR
+  - id: MCA-RESIDUAL-QUOTIENT-001
+    status: OPEN
+    claim: "Construct the support-preserving bridge Φ(γ) → [q] between deviation data and residual quotient data."
+    evidence: RNR
+    owner: agent2
+  - id: MCA-SHADOW-LIFT-COST-001
+    status: OPEN
+    claim: "Prove finite shadow/lift cost or witness-preserving residual descent with explicit transport and measure."
+    evidence: RNR
+  - id: MCA-DEPLOYED-COST-001
+    status: CONDITIONAL
+    claim: "StructuralCost(RS_{n,k}, e=978944) ≤ B*."
+    evidence: OPEN

@@ -5,6 +5,6 @@
   "repository": "KrissKey777/mca-research1",
   "canonical_branch": "main",
   "integrator": "codex",
-  "next_single_gate": "Agent2 confirms it reads this repository and returns the first compact handoff in chat.",
+  "next_single_gate": "Agent2 specifies the minimal deviation-class Φ(γ) to residual-quotient [q] bridge and its first missing morphism.",
   "evidence_policy": "REPORTED_NOT_REPLAYED is not BANKED"
 }
