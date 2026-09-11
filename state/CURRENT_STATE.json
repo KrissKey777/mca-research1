@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "project": "Grand MCA",
-  "status": "BOOTSTRAP",
+  "status": "AGENT2_READONLY_BUS_ACTIVE",
   "repository": "KrissKey777/mca-research1",
   "canonical_branch": "main",
   "integrator": "codex",
-  "next_single_gate": "Run Agent2 read/write connectivity probe and import reviewed state artifacts.",
+  "next_single_gate": "Agent2 confirms it reads this repository and returns the first compact handoff in chat.",
   "evidence_policy": "REPORTED_NOT_REPLAYED is not BANKED"
 }
