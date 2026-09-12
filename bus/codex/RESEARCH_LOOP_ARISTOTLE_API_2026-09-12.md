@@ -6,6 +6,16 @@ The official `aristotlelib 2.1.0` CLI is available through `uvx` and a
 read-only `aristotle list --limit 3` call succeeded. Authentication is read
 from `ARISTOTLE_API_KEY`; the key was not printed, stored, or committed.
 
+The exact SDK base URL is:
+
+```text
+ARISTOTLE_API_BASE_URL=https://aristotle.harmonic.fun/api/v3
+```
+
+The v3 REST client uses the `X-API-Key` header. A read-only
+`GET /api/v3/project?limit=1` returned HTTP 200. The local loop still uses the
+official CLI, which avoids duplicating that REST protocol.
+
 The current integration is therefore the official CLI/SDK contract, not the
 previous guessed REST `/jobs` contract. The local adapter uses:
 
