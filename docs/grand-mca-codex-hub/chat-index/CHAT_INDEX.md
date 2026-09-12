@@ -7,7 +7,7 @@ be opened directly; the new canonical hub task is the project-scoped home.
 | Role | Title | ID / location |
 |---|---|---|
 | Main Codex research | Grand MCA — kontynuacja po handoffie | `01a089ed-f701-7430-a46e-a5d38cb3d890` |
-| Project hub | Grand MCA — canonical hub and research loop | created in project `g-p-6a9702bf03748191a258f715f76af47d` |
+| Project hub | Codex Research Setup (canonical hub task) | `6aa5441b-5944-83ed-b2b2-80b496e0a860`, project `g-p-6a9702bf03748191a258f715f76af47d` |
 | Prompt review | Grand MCA Aristotle prompt review | `01a09525-c79d-7993-a0af-1627c379efe1` |
 | Prompt review 2 | Grand MCA Aristotle prompt review | `01a09534-ada1-7431-9640-1472b2e3ebad` |
 | Prior project chat | Kontynuuj projekt Grand MCA | `6aa163ff-68f8-83eb-9ea2-ac68bd454572` |
