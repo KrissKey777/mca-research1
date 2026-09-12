@@ -19,3 +19,12 @@ Priority is: unconditional bound below `B*`, official counterexample above
 `B*`, then a sharp reduction with one exact remaining lemma. Average fibre
 size is not a maximum; rational-map degree alone is not a counting bound; and
 finite computation remains evidence only.
+
+## Durable-result threshold
+
+Write to the shared Space/GitHub bus only when a result is substantial: a
+proved theorem, an official counterexample, a rigorously refuted route, a
+new exact quantitative gate, a material semantic correction, or a verified
+change in the Grand MCA frontier. Routine iterations, unchanged status,
+failed attempts without a reusable obstruction, and duplicate summaries stay
+in the local run log and are not committed.
