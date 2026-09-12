@@ -20,8 +20,9 @@ return the smallest exact official countermodel.
 
 ## Loop policy
 
-The local loop is now `PAUSED_WAITING_ARISTOTLE` with automatic resubmission
-disabled. On completion, Codex should audit the output, update the frontier,
-and only then prepare the next packet; future nonpublic Grand MCA packets are
-covered by the user's standing authorization for Luna review followed by
-Aristotle(parallel) dispatch.
+The local loop is now `ARISTOTLE_IN_PROGRESS_PARALLEL_RESEARCH` with automatic
+resubmission disabled. Codex/Luna/Leanstral/local computation continue
+independent research and prepare candidate packets while this task runs. A
+new Aristotle packet is not dispatched until a new Aristotle output exists and
+the packet passes Codex/Luna review; future nonpublic Grand MCA packets are
+covered by the user's standing authorization for that pipeline.
