@@ -1,0 +1,26 @@
+{
+  "mode": "ACTIVE_RESEARCH_REVIEW_LANES",
+  "codex_automation_id": "grand-mca-codex-research-controller",
+  "codex_automation_status": "ACTIVE",
+  "codex_automation_rrule": "RRULE:FREQ=MINUTELY;INTERVAL=15",
+  "automatic_resubmit": false,
+  "active_job_id": "9004be44-a678-4d36-9a20-cba58ab6ba9f",
+  "resume_only_after": "new_aristotle_output_and_codex_review",
+  "aristotle_api_base_url": "https://aristotle.harmonic.fun/api/v3",
+  "api_verified": true,
+  "blocker": null,
+  "last_dispatch": "2026-09-12T09:15:04Z",
+  "dispatch_project_id": "62630cae-3e85-4c02-b6ce-b636a93e86cc",
+  "dispatch_review": "Codex Luna REVISE applied before send",
+  "dispatch_policy": "Both Codex review lanes continue while either Aristotle lane is active. Dispatch remains serialized and requires final Codex/Luna review; no dispatch is triggered merely because a review lane is running.",
+  "latest_output": {"lane": "parallel", "task_id": "9004be44-a678-4d36-9a20-cba58ab6ba9f", "status": "CONDITIONAL", "first_failed_item": "heavy-fibre rational presentation degree <= w"},
+  "aristotle_lanes": {
+    "parallel": {"project_id": "62630cae-3e85-4c02-b6ce-b636a93e86cc", "key_env": "ARISTOTLE_API_KEY", "role": "SAFE"},
+    "new": {"project_id": "2fe94968-ae7b-4af1-b9b3-d547e4dd7eb4", "task_id": "9bc564fe-7abc-4f91-af94-b94cd569c8aa", "key_env": "ARISTOTLE_NEW_API_KEY", "role": "UNSAFE_MATCHEDFAMILY"}
+  },
+  "codex_review_lanes": {
+    "review2": {"thread_id": "01a09534-ada1-7431-9640-1472b2e3ebad", "role": "research_integrator", "status": "active", "execution": "codex_local"},
+    "review1": {"thread_id": "01a09525-c79d-7993-a0af-1627c379efe1", "role": "adversarial_reviewer", "status": "active", "execution": "codex_local"}
+  },
+  "research_policy": "Codex review threads and local computation continue while either Aristotle lane is active; only substantial verified results are written to GitHub/Space; Aristotle dispatch is the only external step."
+}

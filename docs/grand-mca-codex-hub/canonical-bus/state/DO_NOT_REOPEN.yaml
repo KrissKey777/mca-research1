@@ -1,0 +1,16 @@
+version: 1
+routes:
+  - absolute ambiguity counting
+  - close-direction locus without exactness
+  - raw support counting
+  - pairwise support-intersection rigidity
+  - generic WB kernel dimension
+  - DIM2/Hankel affine-window route
+  - GYXK external-coordinate repair
+  - subgroup tower
+  - quotient pair graph
+  - full-dimensional locator/Fourier elimination
+  - UniversalOrbit tuning
+  - changing H
+  - broad support census
+  - BCHKS constant improvement as a post-Johnson solution

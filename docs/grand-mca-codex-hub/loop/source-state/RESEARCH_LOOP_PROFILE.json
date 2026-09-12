@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "mode": "active_codex_first_research_loop",
+  "automation": {
+    "provider": "codex_automation",
+    "id": "grand-mca-codex-research-controller",
+    "status": "ACTIVE",
+    "schedule": "RRULE:FREQ=MINUTELY;INTERVAL=15",
+    "aristotle_dispatch": "manual_reviewed_external_step"
+  },
+  "primary_orchestrator": "codex_chatgpt",
+  "roles": {
+    "luna": "cheap exploration and compression",
+    "sol": "hard research and adversarial review",
+    "leanstral": "ad-hoc Lean proof checking, narrowing, and counterexample assistance",
+    "aristotle": "remote Lean formalization via API (parallel SAFE lane)",
+    "aristotle_new": "remote Lean formalization via separate API account (UNSAFE MatchedFamily lane)",
+    "local_compute": "reproducible symbolic and finite checks",
+    "local_lean": "optional independent replay"
+  },
+  "critical_path": [
+    "codex_chatgpt",
+    "local_compute",
+    "proof_packet",
+    "aristotle_api",
+    "codex_integration"
+  ],
+  "proof_agent": {
+    "id": "leanstral-9router",
+    "model": "mistral/labs-leanstral-1-5-1",
+    "endpoint": "http://127.0.0.1:20128/v1",
+    "role": "ad_hoc_self_contained_lean_assistant",
+    "in_main_loop": false,
+    "status": "HEALTH_CHECK_PASSED"
+  },
+  "optional_helpers": ["leanstral-9router"],
+  "optional_only": ["opencode", "docker", "sprite", "deepseek_browser", "local_llm"],
+  "default_limits": {
+    "max_research_passes": 4,
+    "max_expensive_reviews": 1,
+    "one_active_gate": true,
+    "fresh_context_per_task": true,
+    "strategic_review_after_each_result": true,
+    "max_active_problem_per_agent": 1,
+    "automatic_reranking": true,
+    "aristotle_dispatch": "external_serialized_reviewed_step_only"
+  },
+  "priority_registry": "state/PROBLEM_BACKLOG.json",
+  "aristotle_api_key_env": "ARISTOTLE_API_KEY",
+  "aristotle_new_api_key_env": "ARISTOTLE_NEW_API_KEY",
+  "aristotle_new_project_state": "state/ARISTOTLE_NEW_PROJECT.json",
+  "secrets_in_files": false,
+  "promotion_requires": [
+    "explicit_status",
+    "evidence_or_counterexample",
+    "hypotheses_recorded",
+    "aristotle_or_local_lean_status_recorded"
+  ]
+}
