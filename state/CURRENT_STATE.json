@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "project": "Grand MCA",
-  "status": "AGENT2_READONLY_BUS_ACTIVE",
+  "status": "CODEX_FRONTIER_SYNCED_2026-09-12",
   "repository": "KrissKey777/mca-research1",
   "canonical_branch": "main",
   "integrator": "codex",
-  "next_single_gate": "Agent2 specifies the minimal deviation-class Φ(γ) to residual-quotient [q] bridge and its first missing morphism.",
+  "next_single_gate": "Exact maximum fixed-weight MatchedFamily fibre: prove max fibre <= B* or construct a fibre >= B*+1; SAFE heavy-point structure remains a disjoint parallel route.",
   "evidence_policy": "REPORTED_NOT_REPLAYED is not BANKED"
 }

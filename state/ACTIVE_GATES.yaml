@@ -4,6 +4,16 @@ deployed:
   unsafe_neighbor: "e=978945"
   target_bound: "B*=274980728111395087"
 gates:
+  - id: MCA-KEY-FIBRE-001
+    status: OPEN
+    claim: "For Phi(U)=(p1,...,p6,sum labels mod 256) on |U|=136, prove max fibre <= B* or construct a fibre >= B*+1."
+    evidence: "Codex exact arithmetic recorded in bus/codex/RESULT_2026-09-12_FIXED_WEIGHT_KEY_FIBRE_AUDIT.md"
+    owner: codex
+  - id: MCA-SAFE-HEAVY-FIBRE-001
+    status: OPEN
+    claim: "Exploit the reported DECISIVE_REDUCTION to classify a point fibre with >128360144567623878 official challenges; do not assume a universal fibre bound."
+    evidence: RNR
+    owner: Aristotle(parallel)
   - id: MCA-SEMANTIC-SHORTENING-001
     status: OPEN
     claim: "Prove Q_S = Short(C^⊥, Sᶜ) under the concrete zero-extension convention."

@@ -11,24 +11,24 @@ state/DO_NOT_REOPEN.yaml
 
 ## Current assigned task
 
-Task ID: `MCA-RESIDUAL-QUOTIENT-001`
+Task ID: `MCA-KEY-FIBRE-001`
 
-Using the current state and existing reported results, specify the weakest exact interface for
+The previous residual-quotient task is retained in history but is no longer
+the highest-value active gate. Do not repeat it unless a new quantitative
+consequence is found.
 
-```text
-deviation class Φ(γ) → residual quotient class [q]
-```
+Work only on the exact fixed-weight key-fibre gate. For
+`Phi(U)=(p_1(U),...,p_6(U),sum labels mod 256)` on 136-subsets of
+`mu_256 minus {1}`, derive a rigorous collision/second-moment bound or an
+explicit fibre exceeding `B*`. Preserve exact finite-field arithmetic and
+the product coordinate. Do not use `2^255/p^7`, affine dimension, average
+fibre size as an upper bound, or unproved characteristic-zero vanishing-sum
+claims. The H8-invariant family is already below `B*`; focus on non-H8 or
+collision structure.
 
-Return only:
-
-- source type and target type;
-- required hypotheses;
-- support/interpolant/`¬LineCloseOn` preservation obligations;
-- whether the map is definitional, proved, reported-but-unreplayed, or missing;
-- the single first missing morphism/lemma;
-- one next gate.
-
-Do not claim `BANKED`, do not start broad theorem mining, and do not optimize deployed constants.
+Do not claim `BANKED`, do not start broad theorem mining, and do not optimize
+deployed constants. Return `PROVED`, `EXACT_COMPUTATION`, `COUNTEREXAMPLE`,
+or `PRECISE_OBSTRUCTION`, with the first missing implication.
 
 Current communication mode:
 
