@@ -19,8 +19,9 @@ No loop iteration was started, and no stale `H-MY-TASK1` was activated.
 
 ## Required recovery
 
-After the Paseo daemon is healthy, configure a non-rate-limited research
-provider in `~/.paseo/orchestration-preferences.json`, then launch one bounded
+The abandoned external orchestration approach is not part of the project. Do not
+configure or launch it. Use Codex/local tools for research and computation, then
+perform only the reviewed Aristotle dispatch externally.
 loop with the current canonical prompt. Do not relaunch the stale backlog
 automatically. The current mathematical gates remain those in
 `RESEARCH_LOOP_HEALTH_2026-09-12.md`.
