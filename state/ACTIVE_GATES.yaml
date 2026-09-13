@@ -4,6 +4,11 @@ deployed:
   unsafe_neighbor: "e=978945"
   target_bound: "B*=274980728111395087"
 gates:
+  - id: MCA-CORRELATED-CORE-001
+    status: OPEN
+    claim: "For distinct canonical root correlated cores of size at least 596232, prove N <= 12427, prove the joint root-child load hyperbola, or construct an official counterexample exceeding LOAD*."
+    evidence: "bus/codex/RESULT_2026-09-13_DECISIVE_CORRELATED_CORE_BRIDGE.md"
+    owner: Aristotle(parallel)
   - id: MCA-KEY-FIBRE-001
     status: OPEN
     claim: "For Phi(U)=(p1,...,p6,sum labels mod 256) on |U|=136, prove max fibre <= B* or construct a fibre >= B*+1."

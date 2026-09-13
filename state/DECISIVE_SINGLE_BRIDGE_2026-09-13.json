@@ -1,0 +1,10 @@
+{
+  "status": "OPEN_SINGLE_BRIDGE",
+  "root_agreement_threshold": 596232,
+  "child_agreement_threshold": 4624,
+  "LOAD_star": 19559298652205332,
+  "B_star": 274980728111395087,
+  "bridge": "(1118208 + 1500920*N)*(1048576 + 1043952*Nprime) <= 19559298652205332",
+  "owner": "Aristotle(parallel)",
+  "route_policy": "direct heavy correlated-core incidence; no ledger reproof or closed-route reopening"
+}
