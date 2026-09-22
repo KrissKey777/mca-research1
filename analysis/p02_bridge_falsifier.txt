@@ -1,0 +1,11 @@
+P0.2 IsBad vs IsMCA-proxy (exact, dual Gauss+minor)
+GF(5) k=2 e=2 mismatches=0 verdict=SURVIVES_BOUNDED_SWEEP
+GF(7) k=2 e=3 mismatches=0 verdict=SURVIVES_BOUNDED_SWEEP
+GF(7) k=2 e=3 mismatches=0 verdict=SURVIVES_BOUNDED_SWEEP
+GF(11) k=3 e=5 mismatches=0 verdict=SURVIVES_BOUNDED_SWEEP
+GF(11) k=3 e=5 mismatches=0 verdict=SURVIVES_BOUNDED_SWEEP
+GF(13) k=3 e=6 mismatches=0 verdict=SURVIVES_BOUNDED_SWEEP
+GF(13) k=3 e=6 mismatches=0 verdict=SURVIVES_BOUNDED_SWEEP
+GF(13) k=4 e=6 mismatches=0 verdict=SURVIVES_BOUNDED_SWEEP
+GF(13) k=4 e=6 mismatches=0 verdict=SURVIVES_BOUNDED_SWEEP
+OVERALL: SURVIVES_BOUNDED_SWEEP (20.66s)

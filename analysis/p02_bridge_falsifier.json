@@ -1,0 +1,1229 @@
+{
+ "models": [
+  {
+   "q": 5,
+   "k": 2,
+   "n": 5,
+   "e": 2,
+   "challenges": [
+    {
+     "g": 0,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      0,
+      1,
+      4
+     ],
+     "wit_proxy": [
+      [
+       0,
+       1,
+       4
+      ],
+      1
+     ]
+    },
+    {
+     "g": 1,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      0,
+      1,
+      2
+     ],
+     "wit_proxy": [
+      [
+       0,
+       1,
+       2
+      ],
+      0
+     ]
+    },
+    {
+     "g": 2,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      0,
+      1,
+      3
+     ],
+     "wit_proxy": [
+      [
+       0,
+       1,
+       3
+      ],
+      0
+     ]
+    },
+    {
+     "g": 3,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      0,
+      2,
+      4
+     ],
+     "wit_proxy": [
+      [
+       0,
+       2,
+       4
+      ],
+      0
+     ]
+    },
+    {
+     "g": 4,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      0,
+      3,
+      4
+     ],
+     "wit_proxy": [
+      [
+       0,
+       3,
+       4
+      ],
+      0
+     ]
+    }
+   ],
+   "mismatches": [],
+   "verdict": "SURVIVES_BOUNDED_SWEEP"
+  },
+  {
+   "q": 7,
+   "k": 2,
+   "n": 7,
+   "e": 3,
+   "challenges": [
+    {
+     "g": 0,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 1,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      1,
+      2,
+      4,
+      6
+     ],
+     "wit_proxy": [
+      [
+       1,
+       2,
+       4,
+       6
+      ],
+      0
+     ]
+    },
+    {
+     "g": 2,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      1,
+      3,
+      5,
+      6
+     ],
+     "wit_proxy": [
+      [
+       1,
+       3,
+       5,
+       6
+      ],
+      0
+     ]
+    },
+    {
+     "g": 3,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "wit_proxy": [
+      [
+       3,
+       4,
+       5,
+       6
+      ],
+      0
+     ]
+    },
+    {
+     "g": 4,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      2,
+      3,
+      5,
+      6
+     ],
+     "wit_proxy": [
+      [
+       2,
+       3,
+       5,
+       6
+      ],
+      0
+     ]
+    },
+    {
+     "g": 5,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      1,
+      2,
+      4,
+      5
+     ],
+     "wit_proxy": [
+      [
+       1,
+       2,
+       4,
+       5
+      ],
+      0
+     ]
+    },
+    {
+     "g": 6,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "wit_proxy": [
+      [
+       0,
+       1,
+       2,
+       4
+      ],
+      0
+     ]
+    }
+   ],
+   "mismatches": [],
+   "verdict": "SURVIVES_BOUNDED_SWEEP"
+  },
+  {
+   "q": 7,
+   "k": 2,
+   "n": 7,
+   "e": 3,
+   "challenges": [
+    {
+     "g": 0,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 1,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      1,
+      2,
+      4,
+      6
+     ],
+     "wit_proxy": [
+      [
+       1,
+       2,
+       4,
+       6
+      ],
+      0
+     ]
+    },
+    {
+     "g": 2,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      1,
+      3,
+      5,
+      6
+     ],
+     "wit_proxy": [
+      [
+       1,
+       3,
+       5,
+       6
+      ],
+      0
+     ]
+    },
+    {
+     "g": 3,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "wit_proxy": [
+      [
+       3,
+       4,
+       5,
+       6
+      ],
+      0
+     ]
+    },
+    {
+     "g": 4,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      2,
+      3,
+      5,
+      6
+     ],
+     "wit_proxy": [
+      [
+       2,
+       3,
+       5,
+       6
+      ],
+      0
+     ]
+    },
+    {
+     "g": 5,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      1,
+      2,
+      4,
+      5
+     ],
+     "wit_proxy": [
+      [
+       1,
+       2,
+       4,
+       5
+      ],
+      0
+     ]
+    },
+    {
+     "g": 6,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      0,
+      1,
+      2,
+      4
+     ],
+     "wit_proxy": [
+      [
+       0,
+       1,
+       2,
+       4
+      ],
+      0
+     ]
+    }
+   ],
+   "mismatches": [],
+   "verdict": "SURVIVES_BOUNDED_SWEEP"
+  },
+  {
+   "q": 11,
+   "k": 3,
+   "n": 11,
+   "e": 5,
+   "challenges": [
+    {
+     "g": 0,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 1,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 2,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 3,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 4,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 5,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 6,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      2,
+      3,
+      5,
+      7,
+      8,
+      9
+     ],
+     "wit_proxy": [
+      [
+       2,
+       3,
+       5,
+       7,
+       8,
+       9
+      ],
+      0
+     ]
+    },
+    {
+     "g": 7,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      7
+     ],
+     "wit_proxy": [
+      [
+       0,
+       2,
+       3,
+       4,
+       5,
+       7
+      ],
+      0
+     ]
+    },
+    {
+     "g": 8,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      9
+     ],
+     "wit_proxy": [
+      [
+       1,
+       2,
+       4,
+       7,
+       8,
+       9
+      ],
+      0
+     ]
+    },
+    {
+     "g": 9,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 10,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    }
+   ],
+   "mismatches": [],
+   "verdict": "SURVIVES_BOUNDED_SWEEP"
+  },
+  {
+   "q": 11,
+   "k": 3,
+   "n": 11,
+   "e": 5,
+   "challenges": [
+    {
+     "g": 0,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 1,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 2,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 3,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 4,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 5,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 6,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      2,
+      3,
+      5,
+      7,
+      8,
+      9
+     ],
+     "wit_proxy": [
+      [
+       2,
+       3,
+       5,
+       7,
+       8,
+       9
+      ],
+      0
+     ]
+    },
+    {
+     "g": 7,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      7
+     ],
+     "wit_proxy": [
+      [
+       0,
+       2,
+       3,
+       4,
+       5,
+       7
+      ],
+      0
+     ]
+    },
+    {
+     "g": 8,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      9
+     ],
+     "wit_proxy": [
+      [
+       1,
+       2,
+       4,
+       7,
+       8,
+       9
+      ],
+      0
+     ]
+    },
+    {
+     "g": 9,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 10,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    }
+   ],
+   "mismatches": [],
+   "verdict": "SURVIVES_BOUNDED_SWEEP"
+  },
+  {
+   "q": 13,
+   "k": 3,
+   "n": 13,
+   "e": 6,
+   "challenges": [
+    {
+     "g": 0,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 1,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 2,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 3,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 4,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 5,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 6,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 7,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 8,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 9,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 10,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 11,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 12,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    }
+   ],
+   "mismatches": [],
+   "verdict": "SURVIVES_BOUNDED_SWEEP"
+  },
+  {
+   "q": 13,
+   "k": 3,
+   "n": 13,
+   "e": 6,
+   "challenges": [
+    {
+     "g": 0,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 1,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 2,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 3,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 4,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 5,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 6,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 7,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 8,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 9,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 10,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 11,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 12,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    }
+   ],
+   "mismatches": [],
+   "verdict": "SURVIVES_BOUNDED_SWEEP"
+  },
+  {
+   "q": 13,
+   "k": 4,
+   "n": 13,
+   "e": 6,
+   "challenges": [
+    {
+     "g": 0,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      0,
+      1,
+      3,
+      4,
+      9,
+      10,
+      12
+     ],
+     "wit_proxy": [
+      [
+       0,
+       1,
+       3,
+       4,
+       9,
+       10,
+       12
+      ],
+      1
+     ]
+    },
+    {
+     "g": 1,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 2,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      9,
+      10
+     ],
+     "wit_proxy": [
+      [
+       1,
+       2,
+       3,
+       5,
+       6,
+       9,
+       10
+      ],
+      0
+     ]
+    },
+    {
+     "g": 3,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 4,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 5,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 6,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 7,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 8,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 9,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 10,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 11,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 12,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    }
+   ],
+   "mismatches": [],
+   "verdict": "SURVIVES_BOUNDED_SWEEP"
+  },
+  {
+   "q": 13,
+   "k": 4,
+   "n": 13,
+   "e": 6,
+   "challenges": [
+    {
+     "g": 0,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      0,
+      1,
+      3,
+      4,
+      9,
+      10,
+      12
+     ],
+     "wit_proxy": [
+      [
+       0,
+       1,
+       3,
+       4,
+       9,
+       10,
+       12
+      ],
+      1
+     ]
+    },
+    {
+     "g": 1,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 2,
+     "isbad": true,
+     "proxy": true,
+     "match": true,
+     "wit_bad": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      9,
+      10
+     ],
+     "wit_proxy": [
+      [
+       1,
+       2,
+       3,
+       5,
+       6,
+       9,
+       10
+      ],
+      0
+     ]
+    },
+    {
+     "g": 3,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 4,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 5,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 6,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 7,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 8,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 9,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 10,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 11,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    },
+    {
+     "g": 12,
+     "isbad": false,
+     "proxy": false,
+     "match": true,
+     "wit_bad": null,
+     "wit_proxy": null
+    }
+   ],
+   "mismatches": [],
+   "verdict": "SURVIVES_BOUNDED_SWEEP"
+  }
+ ],
+ "elapsed_s": 20.66,
+ "overall": "SURVIVES_BOUNDED_SWEEP"
+}
