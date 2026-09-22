@@ -1,0 +1,574 @@
+{
+ "meta": {
+  "mission": "S16.78-Phase2",
+  "exact": true,
+  "E": 978944,
+  "E1": 978945
+ },
+ "B1_frontier": {
+  "equal_drop_frontier": {
+   "1": 22448,
+   "2": 44928,
+   "3": 44928,
+   "4": 67408
+  },
+  "expected": {
+   "1": 22448,
+   "2": 44928,
+   "3": 44928,
+   "4": 67408
+  },
+  "match": true,
+  "root_phi": 153126785377107968,
+  "one_child_one_block_maxcheap": 2199023255523
+ },
+ "B2_planted": [
+  {
+   "case": "two_shallow_1down",
+   "children": [
+    1048575,
+    1048575
+   ],
+   "TARGET_holds": false,
+   "TARGET_LHS": 306253570755194881,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": false,
+   "ONESHORT_LHS": 306253570755194881,
+   "boundary": "neutral",
+   "detail": [
+    [
+     1048575,
+     "HARD",
+     null,
+     978943
+    ],
+    [
+     1048575,
+     "HARD",
+     null,
+     978943
+    ]
+   ]
+  },
+  {
+   "case": "two_shallow_block",
+   "children": [
+    1026096,
+    1026096
+   ],
+   "TARGET_holds": false,
+   "TARGET_LHS": 153126785378086913,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": false,
+   "ONESHORT_LHS": 153126785378086913,
+   "boundary": "neutral",
+   "detail": [
+    [
+     1026096,
+     "HARD",
+     null,
+     956464
+    ],
+    [
+     1026096,
+     "HARD",
+     null,
+     956464
+    ]
+   ]
+  },
+  {
+   "case": "three_identical_mid",
+   "children": [
+    900000,
+    900000,
+    900000
+   ],
+   "TARGET_holds": true,
+   "TARGET_LHS": 7177818065530881,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": true,
+   "ONESHORT_LHS": 7177818065530881,
+   "boundary": "neutral",
+   "detail": [
+    [
+     900000,
+     "HARD",
+     null,
+     830368
+    ],
+    [
+     900000,
+     "HARD",
+     null,
+     830368
+    ],
+    [
+     900000,
+     "HARD",
+     null,
+     830368
+    ]
+   ]
+  },
+  {
+   "case": "four_identical_mid",
+   "children": [
+    900000,
+    900000,
+    900000,
+    900000
+   ],
+   "TARGET_holds": true,
+   "TARGET_LHS": 9570424087048193,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": true,
+   "ONESHORT_LHS": 9570424087048193,
+   "boundary": "neutral",
+   "detail": [
+    [
+     900000,
+     "HARD",
+     null,
+     830368
+    ],
+    [
+     900000,
+     "HARD",
+     null,
+     830368
+    ],
+    [
+     900000,
+     "HARD",
+     null,
+     830368
+    ],
+    [
+     900000,
+     "HARD",
+     null,
+     830368
+    ]
+   ]
+  },
+  {
+   "case": "one_deep_plus_cheap",
+   "children": [
+    1048576,
+    70000,
+    70000
+   ],
+   "TARGET_holds": false,
+   "TARGET_LHS": 153126785378156547,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": false,
+   "ONESHORT_LHS": 153126785378156547,
+   "boundary": "neutral",
+   "detail": [
+    [
+     1048576,
+     "HARD",
+     null,
+     978944
+    ],
+    [
+     70000,
+     "LOW",
+     34817,
+     368
+    ],
+    [
+     70000,
+     "LOW",
+     34817,
+     368
+    ]
+   ]
+  },
+  {
+   "case": "core_flagged_big",
+   "children": [
+    500000,
+    500000
+   ],
+   "TARGET_holds": true,
+   "TARGET_LHS": 1118209,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": true,
+   "ONESHORT_LHS": 1118209,
+   "boundary": "neutral",
+   "detail": [
+    [
+     500000,
+     "CORE",
+     69632,
+     430368
+    ],
+    [
+     500000,
+     "CORE",
+     69632,
+     430368
+    ]
+   ]
+  },
+  {
+   "case": "hard_plus_core",
+   "children": [
+    900000,
+    500000
+   ],
+   "TARGET_holds": true,
+   "TARGET_LHS": 2392606022565889,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": true,
+   "ONESHORT_LHS": 2392606022565889,
+   "boundary": "neutral",
+   "detail": [
+    [
+     900000,
+     "HARD",
+     null,
+     830368
+    ],
+    [
+     500000,
+     "CORE",
+     69632,
+     430368
+    ]
+   ]
+  },
+  {
+   "case": "unary_deep",
+   "children": [
+    1048576
+   ],
+   "TARGET_holds": false,
+   "TARGET_LHS": 153126785378086913,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": false,
+   "ONESHORT_LHS": 153126785378086913,
+   "boundary": "neutral",
+   "detail": [
+    [
+     1048576,
+     "HARD",
+     null,
+     978944
+    ]
+   ]
+  },
+  {
+   "case": "empty",
+   "children": [],
+   "TARGET_holds": true,
+   "TARGET_LHS": 978945,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": true,
+   "ONESHORT_LHS": 978945,
+   "boundary": "neutral",
+   "detail": []
+  }
+ ],
+ "B3_smallRS": [
+  {
+   "q": 7,
+   "k": 3,
+   "e_scaled": 3,
+   "A_scaled": 6,
+   "classes": [
+    {
+     "Rsize": 1,
+     "resRad": -2,
+     "proxyCost": 0
+    },
+    {
+     "Rsize": 2,
+     "resRad": -1,
+     "proxyCost": 0
+    },
+    {
+     "Rsize": 3,
+     "resRad": 0,
+     "proxyCost": 0
+    }
+   ],
+   "parentMult": [
+    7,
+    0,
+    0
+   ],
+   "ranks": [
+    {
+     "S": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "gauss": 3,
+     "minor": 3,
+     "agree": true
+    },
+    {
+     "S": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "gauss": 3,
+     "minor": 3,
+     "agree": true
+    },
+    {
+     "S": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "gauss": 3,
+     "minor": 3,
+     "agree": true
+    }
+   ],
+   "note": "scaled analogue only; resRad can go negative -> terminal band"
+  },
+  {
+   "q": 11,
+   "k": 4,
+   "e_scaled": 5,
+   "A_scaled": 10,
+   "classes": [
+    {
+     "Rsize": 1,
+     "resRad": -4,
+     "proxyCost": 11
+    },
+    {
+     "Rsize": 2,
+     "resRad": -3,
+     "proxyCost": 11
+    },
+    {
+     "Rsize": 3,
+     "resRad": -2,
+     "proxyCost": 11
+    }
+   ],
+   "parentMult": [
+    11,
+    0,
+    0
+   ],
+   "ranks": [
+    {
+     "S": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "gauss": 4,
+     "minor": 4,
+     "agree": true
+    },
+    {
+     "S": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "gauss": 4,
+     "minor": 4,
+     "agree": true
+    },
+    {
+     "S": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "gauss": 4,
+     "minor": 4,
+     "agree": true
+    }
+   ],
+   "note": "scaled analogue only; resRad can go negative -> terminal band"
+  }
+ ],
+ "B5_discovery": {
+  "z3": {
+   "available": true,
+   "min_hard_over_budget_at_one_block": "sat",
+   "model_h": "2",
+   "in_field_reprice": "h=2 at one block: False (exact, B2 row two_shallow_block)"
+  },
+  "sympy": {
+   "available": true,
+   "level_samples": [
+    [
+     34816,
+     0
+    ],
+    [
+     34817,
+     1
+    ],
+    [
+     57296,
+     1
+    ],
+    [
+     978944,
+     42
+    ],
+    [
+     978945,
+     42
+    ]
+   ],
+   "monotone": true,
+   "frontier_recheck": {
+    "1": 22448,
+    "2": 44928,
+    "3": 44928,
+    "4": 67408
+   }
+  }
+ },
+ "elapsed_s": 6.0,
+ "first_counterexamples": [
+  {
+   "case": "two_shallow_1down",
+   "children": [
+    1048575,
+    1048575
+   ],
+   "TARGET_holds": false,
+   "TARGET_LHS": 306253570755194881,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": false,
+   "ONESHORT_LHS": 306253570755194881,
+   "boundary": "neutral",
+   "detail": [
+    [
+     1048575,
+     "HARD",
+     null,
+     978943
+    ],
+    [
+     1048575,
+     "HARD",
+     null,
+     978943
+    ]
+   ]
+  },
+  {
+   "case": "two_shallow_block",
+   "children": [
+    1026096,
+    1026096
+   ],
+   "TARGET_holds": false,
+   "TARGET_LHS": 153126785378086913,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": false,
+   "ONESHORT_LHS": 153126785378086913,
+   "boundary": "neutral",
+   "detail": [
+    [
+     1026096,
+     "HARD",
+     null,
+     956464
+    ],
+    [
+     1026096,
+     "HARD",
+     null,
+     956464
+    ]
+   ]
+  },
+  {
+   "case": "one_deep_plus_cheap",
+   "children": [
+    1048576,
+    70000,
+    70000
+   ],
+   "TARGET_holds": false,
+   "TARGET_LHS": 153126785378156547,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": false,
+   "ONESHORT_LHS": 153126785378156547,
+   "boundary": "neutral",
+   "detail": [
+    [
+     1048576,
+     "HARD",
+     null,
+     978944
+    ],
+    [
+     70000,
+     "LOW",
+     34817,
+     368
+    ],
+    [
+     70000,
+     "LOW",
+     34817,
+     368
+    ]
+   ]
+  },
+  {
+   "case": "unary_deep",
+   "children": [
+    1048576
+   ],
+   "TARGET_holds": false,
+   "TARGET_LHS": 153126785378086913,
+   "TARGET_RHS": 153126785377107968,
+   "ONESHORT_holds": false,
+   "ONESHORT_LHS": 153126785378086913,
+   "boundary": "neutral",
+   "detail": [
+    [
+     1048576,
+     "HARD",
+     null,
+     978944
+    ]
+   ]
+  }
+ ]
+}

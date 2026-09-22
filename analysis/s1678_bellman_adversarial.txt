@@ -1,0 +1,16 @@
+S16.78 BELLMAN ADVERSARIAL (exact integers)
+B1 frontier={1: 22448, 2: 44928, 3: 44928, 4: 67408} match=True root_phi=153126785377107968
+two_shallow_1down kids=[1048575, 1048575] T=False(306253570755194881/153126785377107968) O=False boundary=neutral
+two_shallow_block kids=[1026096, 1026096] T=False(153126785378086913/153126785377107968) O=False boundary=neutral
+three_identical_mid kids=[900000, 900000, 900000] T=True(7177818065530881/153126785377107968) O=True boundary=neutral
+four_identical_mid kids=[900000, 900000, 900000, 900000] T=True(9570424087048193/153126785377107968) O=True boundary=neutral
+one_deep_plus_cheap kids=[1048576, 70000, 70000] T=False(153126785378156547/153126785377107968) O=False boundary=neutral
+core_flagged_big kids=[500000, 500000] T=True(1118209/153126785377107968) O=True boundary=neutral
+hard_plus_core kids=[900000, 500000] T=True(2392606022565889/153126785377107968) O=True boundary=neutral
+unary_deep kids=[1048576] T=False(153126785378086913/153126785377107968) O=False boundary=neutral
+empty kids=[] T=True(978945/153126785377107968) O=True boundary=neutral
+RS q=7 k=3 e=3 classes=[{'Rsize': 1, 'resRad': -2, 'proxyCost': 0}, {'Rsize': 2, 'resRad': -1, 'proxyCost': 0}, {'Rsize': 3, 'resRad': 0, 'proxyCost': 0}] parentMult=[7, 0, 0] ranks=[{'S': [1, 2, 3, 4, 5, 6], 'gauss': 3, 'minor': 3, 'agree': True}, {'S': [2, 3, 4, 5, 6], 'gauss': 3, 'minor': 3, 'agree': True}, {'S': [3, 4, 5, 6], 'gauss': 3, 'minor': 3, 'agree': True}]
+RS q=11 k=4 e=5 classes=[{'Rsize': 1, 'resRad': -4, 'proxyCost': 11}, {'Rsize': 2, 'resRad': -3, 'proxyCost': 11}, {'Rsize': 3, 'resRad': -2, 'proxyCost': 11}] parentMult=[11, 0, 0] ranks=[{'S': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 'gauss': 4, 'minor': 4, 'agree': True}, {'S': [2, 3, 4, 5, 6, 7, 8, 9, 10], 'gauss': 4, 'minor': 4, 'agree': True}, {'S': [3, 4, 5, 6, 7, 8, 9, 10], 'gauss': 4, 'minor': 4, 'agree': True}]
+z3: {"available": true, "min_hard_over_budget_at_one_block": "sat", "model_h": "2", "in_field_reprice": "h=2 at one block: False (exact, B2 row two_shallow_block)"}
+sympy: {"available": true, "level_samples": [[34816, 0], [34817, 1], [57296, 1], [978944, 42], [978945, 42]], "monotone": true, "frontier_recheck": {"1": 22448, "2": 44928, "3": 44928, "4": 67408}}
+counterexamples(unrestricted-shapes): 4 elapsed 6.0s
