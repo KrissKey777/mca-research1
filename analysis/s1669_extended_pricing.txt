@@ -1,0 +1,19 @@
+S16.69 EXTENDED PRICING (exact integers)
+rank9 cap=51873822725733337 fits=True slack=223106905385661750
+five-flats cap=259369113628666685 fits=True slack=15611614482728402
+circuit-cluster price=274104600000000000 fits=True slack=876128111395087
+one-short: deployed rank9/five-flat/circuit consumers carry fixed a/Kz/m/N; TARGET==ONE-SHORT => BOUNDARY_NEUTRAL, separation must come from upstream semantic guards
+GF(5) k=2 triple_big=0 triple_small=10 wit_small=(0, 1, 2, 2) circuit={'triple': (0, 1, 2), 'gauss': 2, 'minor': 2, 'agree': True} cliques=4
+GF(7) k=2 triple_big=0 triple_small=35 wit_small=(0, 1, 2, 3) circuit={'triple': (0, 1, 2), 'gauss': 2, 'minor': 2, 'agree': True} cliques=7
+GF(11) k=3 triple_big=0 triple_small=165 wit_small=(0, 1, 2, 0) circuit={'triple': (0, 1, 2), 'gauss': 3, 'minor': 3, 'agree': True} cliques=11
+GF(13) k=3 triple_big=0 triple_small=286 wit_small=(0, 1, 2, 1) circuit={'triple': (0, 1, 2), 'gauss': 3, 'minor': 3, 'agree': True} cliques=13
+z3: {"available": true, "C5_two_clique_cover": "sat (discovery-only; replayed in-field below)", "in_field_replay": "see layer_gf greedy_cliques (exact, deterministic)"}
+sympy: {"available": true, "vandermonde_det": 2, "resultant": 1, "deployed_triple_floor": {"Kz": 1048575, "need_gt": 1048575, "a_rank9": 1116048, "consistent": true}}
+K=11207   m_req=13    K-3=11204   rank2closes=False rank1closes=False
+K=13017   m_req=15    K-3=13014   rank2closes=False rank1closes=True
+K=55801   m_req=211   K-3=55798   rank2closes=True rank1closes=True
+K=73714   m_req=479   K-3=73711   rank2closes=True rank1closes=True
+K=91961   m_req=991   K-3=91958   rank2closes=True rank1closes=True
+K=124777  m_req=2966  K-3=124774  rank2closes=True rank1closes=True
+K=124778  m_req=2967  K-3=124775  rank2closes=True rank1closes=True
+elapsed 2.33s
