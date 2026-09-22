@@ -1,0 +1,15 @@
+S16.79 MIXED-PROFILE BELLMAN (exact, independent implementation)
+h=1 pass=14 fail=5 best_pass=(944128, (944128,), 1013762, 153126785377107968) worst_fail=(0, (0,), 153126785378086913, 153126785377107968) first_fail=((0,), 153126785378086913, 153126785377107968)
+h=2 pass=171 fail=190 best_pass=(1888256, (944128, 944128), 1048579, 153126785377107968) worst_fail=(0, (0, 0), 306253570755194881, 153126785377107968) first_fail=((0, 0), 306253570755194881, 153126785377107968)
+h=3 pass=1884 fail=4975 best_pass=(2832384, (944128, 944128, 944128), 1083396, 153126785377107968) worst_fail=(0, (0, 0, 0), 459380356132302849, 153126785377107968) first_fail=((0, 0, 0), 459380356132302849, 153126785377107968)
+h=4 pass=148 fail=477 best_pass=None worst_fail=None first_fail=((0, 0, 0, 0), 612507141509410817, 153126785377107968)
+hard1+10k-cheap holds=True slack=76563392576157839 radii=[956496]
+hard1+max-cheap holds=True slack=76563392687575039 radii=[956464]
+hard2+core holds=True slack=76563392687226879 radii=[934016, 934016]
+hard1deep+low-heavy holds=True slack=150734177613761711 radii=[830368]
+hard3mixed+base holds=True slack=35889090321779735 radii=[956496, 934016, 830368]
+drops=(22448,) T=True O=False DIVERGES
+drops=(44928, 44928) T=True O=False DIVERGES
+drops=(0,) T=False O=False neutral
+drops=(22480, 22480) T=False O=False neutral
+elapsed 0.28s
